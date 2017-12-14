@@ -8,5 +8,3 @@
       shell: echo tarea1
     - name: tarea2
       shell: echo tarea2
-    - name: tarea3
-      shell: echo tarea3
