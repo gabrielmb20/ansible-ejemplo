@@ -1,0 +1,12 @@
+---
+- name: prueba de variables
+  hosts: 127.0.0.1
+  vars:
+    prueba: test
+  tasks:
+    - name: tarea1
+      shell: echo tarea1
+    - name: tarea2
+      shell: echo tarea2
+    - name: tarea3
+      shell: echo tarea3
